@@ -84,3 +84,5 @@ def getSSIM(i1, i2):
     ssim_map = cv.divide(t3, t1)  # ssim_map =  t3./t1;
     ssim = np.mean(ssim_map)  # mssim = average of ssim map
     return ssim
+
+
